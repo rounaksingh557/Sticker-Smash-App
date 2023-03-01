@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "usernamehw.errorlens",
+        "streetsidesoftware.code-spell-checker",
+        "naumovs.color-highlight",
+        "bycedric.vscode-expo",
+        "kisstkondoros.vscode-gutter-preview",
+        "christian-kohler.path-intellisense"
+    ]
+}
