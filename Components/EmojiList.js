@@ -1,6 +1,13 @@
 import { useState } from "react";
 import { StyleSheet, FlatList, Image, Platform, Pressable } from "react-native";
 
+/**
+ *
+ * @param {*} onSelect : returns the item path which is selected.
+ * @param {*} onCloseModal : Closes the modal.
+ * @returns A list of emoji item.
+ */
+
 export default function EmojiList({ onSelect, onCloseModal }) {
   const [emoji] = useState([
     require("../assets/images/emoji1.png"),

@@ -25,18 +25,30 @@ export default function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [pickerEmoji, setPickerEmoji] = useState(null);
 
+  /**
+   * Resets the emoji options.
+   */
   const onReset = () => {
     setShowAppOptions(false);
   };
 
+  /**
+   * Invokes the modal.
+   */
   const onAddSticker = () => {
     setIsModalVisible(true);
   };
 
+  /**
+   * Will save the emoji on the image.
+   */
   const onSaveImageAsync = async () => {
-    return null;
+    null;
   };
 
+  /**
+   * Helps in closing the modal.s
+   */
   const onModalClose = () => {
     setIsModalVisible(false);
   };

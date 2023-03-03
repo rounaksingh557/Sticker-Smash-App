@@ -1,6 +1,11 @@
 import { View, Pressable, StyleSheet } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 
+/**
+ * @param {*} onPress: A custom function from the user side, which invokes on click.
+ * @returns A circle button.
+ */
+
 export default function CircleButton({ onPress }) {
   return (
     <View style={styles.circleButtonContainer}>

@@ -1,6 +1,13 @@
 import { Modal, View, Text, Pressable, StyleSheet } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 
+/**
+ * @param {*} isVisible : Sets the visibility of the component.
+ * @param {*} children : Allows to pass children component.
+ * @param {*} onClose : Closes the modal.
+ * @returns A modal having list of items.
+ */
+
 export default function EmojiPicker({ isVisible, children, onClose }) {
   return (
     <Modal animationType="slide" transparent={true} visible={isVisible}>
